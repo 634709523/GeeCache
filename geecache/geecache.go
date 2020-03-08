@@ -58,15 +58,6 @@ func (g *Group) populateCache(key string, value ByteView) {
 	g.mainCache.add(key, value)
 }
 
-
-
-
-
-
-
-
-
-
 var (
 	mu     sync.RWMutex
 	groups = make(map[string]*Group)
